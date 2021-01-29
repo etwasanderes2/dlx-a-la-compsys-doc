@@ -30,6 +30,7 @@ fun FlowContent.appendIndex(instructions: Collection<Instruction>) {
                 for (ins in instructions.sortedBy { it.name }) {
                     tr {
                         td { insertLink(ins, prefix = "instructions/") }
+                        td { +ins.longname }
                     }
                 }
             }

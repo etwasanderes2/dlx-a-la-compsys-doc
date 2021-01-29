@@ -34,7 +34,7 @@ object JALR: Instruction(
     description = """Springe zu der in Rs1 angegeben Adresse.
         |Speichere die Adresse des nächsten Befehls in R31.
     """.trimMargin(),
-    warning = """User DLX Emulator verwendet Zeilennummer anstatt Adressen.""",
+    warning = """Unser DLX Emulator verwendet Zeilennummer anstatt Adressen.""",
     usage = listOf("Aufruf von Unterprogrammen, deren Adressen man in Registern hat (bei uns selten)", "Wenn die 26 bit von JAL nicht genug sind"),
     seeAlso = listOf(Reference.immediateVersion("JAL")),
     argtypes = listOf(DLXArgtype.REGISTER)
