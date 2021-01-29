@@ -87,6 +87,7 @@ fun main() {
             title { +"DLX Reference" }
             meta(charset = "UTF-8")
             link(href = "../stylesheets/general.css", rel = "stylesheet")
+            link(href = "../stylesheets/index.css", rel = "stylesheet")
         }
 
         body {
