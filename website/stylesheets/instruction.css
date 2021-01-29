@@ -1,0 +1,73 @@
+.taglist {
+    display: block;
+}
+
+.taglist::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.taglist * {
+    margin: 0;
+    font-size: small;
+    list-style: none;
+    height: 2em;
+}
+
+.taglist h2 {
+    float: left;
+}
+
+.taglist ul {
+    padding-left: 8px;
+    float: left;
+}
+
+.taglist ul li {
+    float: left;
+    margin: 0 2px 0 2px;
+}
+
+.taglist ul li p {
+    display: block;
+}
+
+.codeblock {
+    font-family: monospace;
+    font-size: large;
+    padding: 8px 8px 8px 8px;
+    background-color: #0c0d18;
+    border-radius: 4px;
+}
+
+.syntaxbox .ch_instruction {
+    color: crimson;
+}
+
+.syntaxbox .ch_immediate {
+    color: green;
+}
+
+.syntaxbox .ch_register {
+    color: orangered;
+}
+
+.syntaxbox .ch_label {
+    color: dodgerblue;
+}
+
+.syntaxbox .ch_address {
+    color: blueviolet;
+}
+
+.syntaxbox .ch_arg {
+    font-style: italic;
+}
+
+.warn {
+    background-color: #e35c5c;
+    color: #400303;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+}

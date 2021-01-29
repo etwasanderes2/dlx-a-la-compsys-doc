@@ -1,0 +1,30 @@
+body {
+    background-color: #1b1f39;
+    color: #bbbbbb;
+    font-family: sans-serif;
+}
+
+div.main {
+    max-width: 20cm;
+    margin: auto;
+}
+
+h1 {
+    margin: 10px 2px 10px 2px;
+}
+
+h2 {
+    margin: 6px 2px 6px 2px;
+}
+
+p {
+    margin: 2px 2px 2px 2px;
+}
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
