@@ -80,7 +80,7 @@ fun main() {
         println("Written html for $ins")
     }
 
-    val writer = File("website/pages/index.html").writer()
+    val writer = File("website/pages/not-index.html").writer()
     writer.append("<!DOCTYPE html>\n")
     writer.appendHTML().html {
         head {

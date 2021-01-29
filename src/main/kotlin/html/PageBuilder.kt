@@ -9,7 +9,7 @@ fun Instruction.appendHtml(to: FlowContent) = with(to) {
     div(classes = "main") {
 
         div {
-            a(href = "../index.html") { +"Zurück zur Übersicht" }
+            a(href = "../not-index.html") { +"Zurück zur Übersicht" }
         }
 
         div(classes = "title") {
